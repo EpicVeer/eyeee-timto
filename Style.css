@@ -1,6 +1,7 @@
 body {
     margin: 0;
 padding-top: 800px;
+text-align: center;
 }
 .profile{
     width: 200px;
@@ -62,25 +63,45 @@ p{
     vertical-align: middle;
 }
 .menu{
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background-color: white;
+    top:0px;
     z-index: 10;
+    width: 100%;
+    margin-top: 0px;
     cursor: pointer;
     font-family: 'Akronim', cursive;
 }
 .links{
-    float: left;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 10px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Akronim', cursive;
     font-size: 20px;
 }
 .links:hover{
-    background-color:blue;
-
+  font-size: 25px;
+  text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover{
+    color: brown;
+}
+#contact{
+    background: lightgrey;
+}
+.contact_1 h3{
+    display: inline;
+}
+#contact iframe{
+    width: 100%;
 }
